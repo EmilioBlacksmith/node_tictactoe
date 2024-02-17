@@ -1,15 +1,15 @@
 {
-	"name": "nodejs_tictactoe",
+	"name": "node_tictactoe",
 	"version": "1.0.0",
 	"description": "tic tac toe, but in the node terminal.",
 	"main": "index.js",
-	"type": "module",
+	"type": "commonjs",
 	"scripts": {
 		"build": "tsc",
 		"dev": "tsc && node dist/index.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Emilio Blacksmith",
 	"license": "ISC",
 	"devDependencies": {
 		"@types/node": "^20.11.19",
