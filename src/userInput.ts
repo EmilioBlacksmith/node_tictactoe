@@ -5,6 +5,8 @@ const rl = readline.createInterface({
 	output: process.stdout,
 });
 
+rl.setMaxListeners(15);
+
 /**
  * Prompts the user with a question and returns a promise that resolvers to the user's input.
  * @param question question The question to prompt the user with.
