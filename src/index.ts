@@ -107,10 +107,6 @@ function checkWin(board: Board): string | null {
 }
 
 async function gameLoop(): Promise<void> {
-	// Player 1 Make Move
-	// Player 2 Make Move
-	// Win Check
-
 	do {
 		console.log("\n");
 		displayBoard();
