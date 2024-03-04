@@ -6,7 +6,8 @@
 	"type": "commonjs",
 	"scripts": {
 		"build": "tsc",
-		"dev": "tsc && node dist/index.js"
+		"dev": "tsc && node dist/index.js",
+		"start": "tsc && node dist/index.js"
 	},
 	"keywords": [],
 	"author": "Emilio Blacksmith",
